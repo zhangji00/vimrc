@@ -8,3 +8,4 @@ Powerline
 Conque-shell(非常好用的vim环境的shell)
 Vundle(插件管理工具)
 还有一些关于elixir语言的插件主要是高亮语法智能提示什么的
+需要将ctags文件写入到root路径下的.ctags文件当中，这样才能产生elixir的ctags文件(ctags -R . )
