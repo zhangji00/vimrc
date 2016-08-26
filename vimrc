@@ -72,11 +72,11 @@ let g:tagbar_type_elixir = {'ctagstype': 'elixir', 'kinds':['f:functions:0:0', '
 "let g:tagbar_winsize = 1
 nmap <leader>t :TagbarToggle<cr>
 "nmap <leader><leader>t :TagbarClose<cr>
-hi Cursorline term=reverse ctermbg=242 guibg=DarkGrey cterm=NONE
-hi Cursorline term=reverse ctermbg=242 guibg=DarkGrey cterm=NONE
+hi Cursorline term=reverse ctermbg=242 guibg=DarkGrey cterm=NONE "这样可以使得cursorline的下滑线去掉
+hi Cursorcolumn term=reverse ctermbg=242 guibg=DarkGrey cterm=NONE
 nmap <Leader>c :set cursorline! cursorcolumn! <cr>
-nmap <Leader>sh :ConqueTermSplit bash<CR>
-nmap - :resize -1<CR>
+nmap <Leader>sh :ConqueTermSplit bash<CR>  "用<Leader>sh作为快捷键打开Conque shell
+nmap - :resize -1<CR>  "这样就可以用加减键控制窗口的大小了
 nmap = :resize +1<CR>
 "set nocompatible   " Disable vi-compatibility
 set laststatus=2   " Always show the statusline
