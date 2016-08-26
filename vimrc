@@ -68,6 +68,7 @@ nmap <leader>f :NERDTreeToggle<cr>
 let g:alchemist_tag_map = '<C-]]>'
 let g:alchemist_tag_stack_map = '<C-TT>'
 "set tags = "/root/fifa2/tags"
+"下一行是为了让tagbar能显示elixir的模块函数
 let g:tagbar_type_elixir = {'ctagstype': 'elixir', 'kinds':['f:functions:0:0', 'c:callbacks:0:0', 'd:delegates:0:0', 'e:exceptions:0:0','i:implementations:0:0', 'a:macros:0:0', 'o:operators:0:0', 'm:modules:0:0','p:protocols:0:0', 'r:records:0:0'], 'sro': '.', 'kind2scope': {'m':'modules'}, 'scope2kind': {'modules': 'm'}}
 "let g:tagbar_winsize = 1
 nmap <leader>t :TagbarToggle<cr>
